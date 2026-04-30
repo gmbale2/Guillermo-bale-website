@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://guillermobale.com/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://guillermobale.com/assets/guillermo-bale-portrait-1200.webp</image:loc>
+      <image:title>Guillermo Bale — portrait</image:title>
+      <image:caption>Marketing strategist, film producer, and SCORE Los Angeles business mentor.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://guillermobale.com/assets/og-image.jpg</image:loc>
+      <image:title>Guillermo Bale — social card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://guillermobale.com/assets/poster-killhergoats-960.webp</image:loc>
+      <image:title>Kill Her Goats (2023)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://guillermobale.com/assets/poster-fogcity-960.webp</image:loc>
+      <image:title>Fog City (2023)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://guillermobale.com/assets/poster-rotld-960.webp</image:loc>
+      <image:title>Return of the Living Dead (2025)</image:title>
+    </image:image>
+  </url>
+</urlset>
