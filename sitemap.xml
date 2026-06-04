@@ -3,29 +3,33 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://guillermobale.com/</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://guillermobale.com/assets/guillermo-bale-portrait-1200.webp</image:loc>
-      <image:title>Guillermo Bale — portrait</image:title>
-      <image:caption>Marketing strategist, film producer, and SCORE Los Angeles business mentor.</image:caption>
+      <image:title>Guillermo Bale — marketing strategist, film producer, SCORE business mentor</image:title>
+      <image:caption>Portrait of Guillermo Bale, Los Angeles–based marketing strategist, founder of Roilogy, indie film producer, and SCORE Greater Los Angeles business mentor.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://guillermobale.com/assets/og-image.jpg</image:loc>
-      <image:title>Guillermo Bale — social card</image:title>
+      <image:loc>https://guillermobale.com/assets/guillermo-bale-og-card.jpg</image:loc>
+      <image:title>Guillermo Bale — Marketing, Film, Mentorship</image:title>
+      <image:caption>Social-card portrait of Guillermo Bale: marketing strategist, indie film producer, and SCORE Greater Los Angeles business mentor.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://guillermobale.com/assets/poster-killhergoats-960.webp</image:loc>
-      <image:title>Kill Her Goats (2023)</image:title>
+      <image:loc>https://guillermobale.com/assets/kill-her-goats-producer-guillermo-bale-960.webp</image:loc>
+      <image:title>Kill Her Goats (2023) — produced by Guillermo Bale</image:title>
+      <image:caption>Official poster for Kill Her Goats (2023), an indie horror feature produced by Guillermo Bale. Directed by Steve Wolsh, WithAnO Productions.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://guillermobale.com/assets/poster-fogcity-960.webp</image:loc>
-      <image:title>Fog City (2023)</image:title>
+      <image:loc>https://guillermobale.com/assets/fog-city-producer-guillermo-bale-960.webp</image:loc>
+      <image:title>Fog City (2023) — produced by Guillermo Bale</image:title>
+      <image:caption>Official poster for Fog City (2023), an indie horror feature produced by Guillermo Bale. Directed by Steve Wolsh, WithAnO Productions.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://guillermobale.com/assets/poster-rotld-960.webp</image:loc>
-      <image:title>Return of the Living Dead (2025)</image:title>
+      <image:loc>https://guillermobale.com/assets/return-of-the-living-dead-producer-guillermo-bale-960.webp</image:loc>
+      <image:title>Return of the Living Dead (2025) — produced by Guillermo Bale</image:title>
+      <image:caption>Official poster for Return of the Living Dead (2025), an indie horror feature produced by Guillermo Bale. Third entry in the West Craven cycle, directed by Steve Wolsh, WithAnO Productions.</image:caption>
     </image:image>
   </url>
 </urlset>
