@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://guillermobale.com/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -15,6 +15,11 @@
       <image:loc>https://guillermobale.com/assets/guillermo-bale-og-card.jpg</image:loc>
       <image:title>Guillermo Bale — Marketing, Film, Mentorship</image:title>
       <image:caption>Social-card portrait of Guillermo Bale: marketing strategist, indie film producer, and SCORE Greater Los Angeles business mentor.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://guillermobale.com/assets/guillermo-bale-score-business-mentor-portrait-800.webp</image:loc>
+      <image:title>Guillermo Bale — SCORE Greater Los Angeles business mentor</image:title>
+      <image:caption>Guillermo Bale, volunteer business mentor at SCORE Greater Los Angeles. Free one-on-one mentoring for small business owners across LA County.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://guillermobale.com/assets/kill-her-goats-producer-guillermo-bale-960.webp</image:loc>

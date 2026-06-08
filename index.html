@@ -185,8 +185,10 @@
     },
     {
       "@type": "ProfessionalService",
+      "@id": "https://guillermobale.com/#mentor-service",
       "name": "Free Small-Business Mentoring with Guillermo Bale via SCORE LA",
       "provider": { "@id": "https://guillermobale.com/#person" },
+      "image": { "@id": "https://guillermobale.com/#mentor-portrait" },
       "areaServed": {
         "@type": "AdministrativeArea",
         "name": "Greater Los Angeles, California, USA"
@@ -204,6 +206,23 @@
         "availability": "https://schema.org/InStock",
         "description": "Confidential 60-minute one-on-one mentoring sessions, free of charge, funded by the U.S. Small Business Administration."
       }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://guillermobale.com/#mentor-portrait",
+      "url": "https://guillermobale.com/assets/guillermo-bale-score-business-mentor-portrait-800.webp",
+      "contentUrl": "https://guillermobale.com/assets/guillermo-bale-score-business-mentor-portrait-800.webp",
+      "width": 800,
+      "height": 971,
+      "encodingFormat": "image/webp",
+      "name": "Guillermo Bale — SCORE Greater Los Angeles business mentor",
+      "caption": "Guillermo Bale, volunteer business mentor at SCORE Greater Los Angeles. Free one-on-one mentoring for small business owners across LA County.",
+      "creator": { "@id": "https://guillermobale.com/#person" },
+      "creditText": "Guillermo Bale",
+      "copyrightHolder": { "@id": "https://guillermobale.com/#person" },
+      "license": "https://guillermobale.com/",
+      "acquireLicensePage": "https://guillermobale.com/#contact",
+      "about": { "@id": "https://guillermobale.com/#person" }
     },
     {
       "@type": "Movie",
@@ -495,6 +514,11 @@ section{padding:120px 0;position:relative}
 
 .mentor{border-top:1px solid var(--line)}
 .mentor-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:start}
+.mentor-portrait{position:relative;width:100%;max-width:360px;aspect-ratio:5/6;margin:0 0 36px;border:1px solid var(--line-2);background:#1a1714;overflow:hidden}
+.mentor-portrait img{width:100%;height:100%;object-fit:cover;filter:grayscale(0.10) contrast(1.04) brightness(0.97);transition:filter .6s ease, transform 1s ease}
+.mentor-portrait:hover img{filter:none;transform:scale(1.02)}
+.mentor-portrait::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 65%,rgba(11,10,9,0.45));z-index:1;pointer-events:none}
+.mentor-portrait::after{content:"SCORE LA · MENTOR";position:absolute;left:14px;bottom:12px;font-family:var(--mono);font-size:10px;letter-spacing:0.2em;color:var(--cream-2);z-index:2;opacity:.85}
 .mentor-body{font-family:var(--serif);font-size:19px;line-height:1.6;color:var(--cream-2)}
 .mentor-body p{margin:0 0 18px}
 .areas{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:32px;border-top:1px solid var(--line)}
@@ -622,7 +646,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 40px;background:#050404}
       <div class="about-portrait reveal">
         <picture>
           <source type="image/webp" srcset="assets/guillermo-bale-portrait-600.webp 600w, assets/guillermo-bale-portrait-1200.webp 1200w" sizes="(max-width:880px) 100vw, 50vw" />
-          <img src="assets/guillermo-bale-portrait-1200.webp" alt="Portrait of Guillermo Bale — Los Angeles–based marketing strategist, founder of Roilogy, indie film producer, and SCORE Greater Los Angeles business mentor" title="Guillermo Bale — marketing strategist, film producer, SCORE business mentor" width="1594" height="1592" fetchpriority="high" decoding="async" />
+          <img src="assets/guillermo-bale-portrait-1200.webp" alt="Portrait of Guillermo Bale — Los Angeles–based marketing strategist, founder of Roilogy, indie film producer, and SCORE Greater Los Angeles business mentor" title="Guillermo Bale — marketing strategist, film producer, SCORE business mentor" width="896" height="1088" fetchpriority="high" decoding="async" />
         </picture>
       </div>
       <div class="about-text reveal delay-1">
@@ -845,6 +869,12 @@ footer{border-top:1px solid var(--line);padding:60px 0 40px;background:#050404}
 
     <div class="mentor-grid">
       <div class="reveal">
+        <figure class="mentor-portrait">
+          <picture>
+            <source type="image/webp" srcset="assets/guillermo-bale-score-business-mentor-portrait-480.webp 480w, assets/guillermo-bale-score-business-mentor-portrait-800.webp 800w" sizes="(max-width:980px) 80vw, 360px" />
+            <img src="assets/guillermo-bale-score-business-mentor-portrait-800.webp" alt="Guillermo Bale — SCORE Greater Los Angeles business mentor and small-business advisor" title="Guillermo Bale — SCORE Los Angeles business mentor" width="800" height="971" loading="lazy" decoding="async" />
+          </picture>
+        </figure>
         <div class="mentor-body">
           <p>The SCORE Los Angeles chapter served 18,000+ local entrepreneurs in 2024 alone, and was named SCORE's 2025 District Chapter of the Year. Guillermo's role: one-on-one mentoring sessions, free of charge, for owners and operators across LA County.</p>
           <p>Sessions focus on the practical work, such as: what to fix this quarter, what to ignore, how to read your numbers, where the next dollar of growth actually lives.</p>
